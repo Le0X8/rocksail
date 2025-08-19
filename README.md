@@ -63,3 +63,7 @@ Just reapply the cheat. (see usage)
 
 Probably not, as this is a cheat which won't give you an advantage over other players. Currently, VAC doesn't care about changed game files,
 but as soon as it does, might get some trouble. Use at your own risk.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
