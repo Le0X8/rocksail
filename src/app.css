@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/fira-code';
+
+@theme {
+	--font-mono: 'Fira Code Variable', 'Fira Code', monospace;
+}
