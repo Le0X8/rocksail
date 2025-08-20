@@ -8,7 +8,8 @@ This is a cheat to manipulate your CS2 client, to get paid stuff for free. Other
 
 ## Features
 
-- Music Kit Switcher: swap your music kit to any other one
+- Music Kit Switcher: get ANY music kit for free
+- Agent Switcher: get ANY agent for free
 
 More features will be added in the future.
 

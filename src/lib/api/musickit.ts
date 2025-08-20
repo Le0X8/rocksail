@@ -1,6 +1,6 @@
-import { cache, clearTempDir, getTempFile } from '$lib/cache';
-import { addFolder, getFile, listFiles, removeFolder } from '$lib/vrf';
-import { parse } from 'vdf';
+import { cache, clearTempDir } from '$lib/cache';
+import { getItemList } from '$lib/items';
+import { addFolder, listFiles, removeFolder } from '$lib/vrf';
 
 export type MusicKit = {
 	id: string;
@@ -16,12 +16,7 @@ export function listMusicKits() {
 					.map((file) => file.split('/')[0])
 			)
 		);
-		const items = cache('items', () => {
-			getFile('game/csgo/pak01_dir.vpk', 'resource/csgo_english.txt');
-			const file = getTempFile('resource/csgo_english.txt').toString('utf8');
-			clearTempDir();
-			return parse(file).lang.Tokens as Record<string, string>;
-		});
+		const items = getItemList();
 
 		return ids.map((id) => {
 			console.log(id);

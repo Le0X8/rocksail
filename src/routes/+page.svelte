@@ -1,6 +1,7 @@
 <script lang="ts">
 	const cheats: { name: string; url: string }[] = [
-		{ name: 'Music Kit Switcher', url: '/musickit' }
+		{ name: 'Music Kit Switcher', url: '/musickit' },
+		{ name: 'Agent Switcher', url: '/agent' }
 	];
 </script>
 
@@ -12,9 +13,9 @@
 <h2 class="mb-12 text-lg">Counter-Strike 2 Asset Cheat</h2>
 
 <div class="mb-12 w-128 border">
-	<ul class="flex flex-col gap-2">
+	<ul class="flex flex-col py-2">
 		{#each cheats as cheat}
-			<li class="border-b border-slate-700 px-4 py-2">
+			<li class="px-4 py-1">
 				<a class="underline" href={cheat.url}>
 					&rarr; {cheat.name}
 				</a>

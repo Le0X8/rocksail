@@ -37,3 +37,20 @@ export function addFolder(file: string, prefix: string, local: string) {
 		}
 	);
 }
+
+export function removeFile(file: string, prefix: string, local: string) {
+	getFile(file, prefix);
+	renameSync(path.join(provideTempDir(), prefix), path.join(provideTempDir(), local));
+	execSync(`${VPKEDITCLI_PATH} "${file}" --remove-file "${prefix}"`, {
+		cwd: path.join(STEAM_DIR, 'common', 'Counter-Strike Global Offensive')
+	});
+}
+
+export function addFile(file: string, prefix: string, local: string) {
+	execSync(
+		`${VPKEDITCLI_PATH} "${file}" --add-file "${path.resolve(path.join(provideTempDir(), local))}" "${prefix}"`,
+		{
+			cwd: path.join(STEAM_DIR, 'common', 'Counter-Strike Global Offensive')
+		}
+	);
+}
