@@ -10,6 +10,7 @@ This is a cheat to manipulate your CS2 client, to get paid stuff for free. Other
 
 - Music Kit Switcher: get ANY music kit for free
 - Agent Switcher: get ANY agent for free
+- Skin Switcher: replace your current skin with another skin (you can purchase factory new skins for 0.05$ and replace them with more expensive ones) (StatTrak, Stickers, wear level and more will all be copied)
 
 More features will be added in the future.
 

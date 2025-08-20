@@ -42,6 +42,6 @@
 	},
 	"dependencies": {
 		"@fontsource-variable/fira-code": "^5.2.6",
-		"vdf": "^0.0.2"
+		"vdf": "github:Le0X8/node-vdf"
 	}
 }

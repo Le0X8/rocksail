@@ -1,7 +1,8 @@
 <script lang="ts">
 	const cheats: { name: string; url: string }[] = [
 		{ name: 'Music Kit Switcher', url: '/musickit' },
-		{ name: 'Agent Switcher', url: '/agent' }
+		{ name: 'Agent Switcher', url: '/agent' },
+		{ name: 'Skin Switcher', url: '/skin' }
 	];
 </script>
 

@@ -12,8 +12,8 @@ importers:
         specifier: ^5.2.6
         version: 5.2.6
       vdf:
-        specifier: ^0.0.2
-        version: 0.0.2
+        specifier: github:Le0X8/node-vdf
+        version: https://codeload.github.com/Le0X8/node-vdf/tar.gz/0e00d1f8e3ec1e4b34382e64f2f04877bb957c6f
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.5
@@ -1553,8 +1553,9 @@ packages:
   util@0.12.5:
     resolution: {integrity: sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA==}
 
-  vdf@0.0.2:
-    resolution: {integrity: sha512-iqFbR0zZeXQGaJzr7g8tFdQAgqIO3aTGoTLQGDugbiX4AZGdkbzSS/q9MXbvOSTfdP4TAEYZ124QWwLoueKvSw==}
+  vdf@https://codeload.github.com/Le0X8/node-vdf/tar.gz/0e00d1f8e3ec1e4b34382e64f2f04877bb957c6f:
+    resolution: {tarball: https://codeload.github.com/Le0X8/node-vdf/tar.gz/0e00d1f8e3ec1e4b34382e64f2f04877bb957c6f}
+    version: 0.0.2
 
   vite@7.1.3:
     resolution: {integrity: sha512-OOUi5zjkDxYrKhTV3V7iKsoS37VUM7v40+HuwEmcrsf11Cdx9y3DIr2Px6liIcZFwt3XSRpQvFpL3WVy7ApkGw==}
@@ -2952,7 +2953,7 @@ snapshots:
       is-typed-array: 1.1.15
       which-typed-array: 1.1.19
 
-  vdf@0.0.2:
+  vdf@https://codeload.github.com/Le0X8/node-vdf/tar.gz/0e00d1f8e3ec1e4b34382e64f2f04877bb957c6f:
     dependencies:
       util: 0.12.5
 
